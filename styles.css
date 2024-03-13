@@ -1,0 +1,139 @@
+/* COMMON */
+
+body {
+    margin: 0;
+    background-color: #060f2b;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+/* HEADER */
+
+header {
+    position: relative;
+}
+
+header #background {
+    width: 100%;
+    height: auto;
+}
+
+header #header-container {
+    width: 65%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+header #header-container #logo {
+    width: 100%;
+    height: auto;
+}
+
+header #header-container #links {
+    margin: 10px;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header #header-container #links .link {
+    margin: 20px;
+}
+
+header .link img {
+    width: 30px;
+}
+
+@media (max-width: 500px) {
+    header #header-container #links {
+        width: 70%;
+    }
+
+    header #header-container #links .link {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    header #header-container #links {
+        width: 100%;
+    }
+
+    header #header-container #links .link {
+        margin: 5px;
+    }
+}
+
+/* INDEX */
+
+#index article {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#index article #genres {
+    text-transform: lowercase;
+    font-family: 'Oswald-Bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#index article #locations {
+    font-size: x-small;
+    text-transform: uppercase;
+    font-family: 'Oswald-Bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#index article #description {
+    line-height: 2;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: larger;
+    font-family: 'CrimsonPro-Medium', 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 900px) {
+    #index article {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+/* IMPRINT / PRIVACY POLICY */
+
+#imprint article {
+    margin: 20px;
+    letter-spacing: 2px;
+    font-family: 'CrimsonPro-Medium', 'Times New Roman', Times, serif;
+}
+
+#imprint h1 {
+    letter-spacing: 0;
+    text-transform: uppercase;
+    font-family: 'Oswald-Bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* FOOTER */
+
+footer {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+    color: white;
+    font-size: smaller;
+    font-family: 'Oswald-Bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

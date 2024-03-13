@@ -1,0 +1,10 @@
+version: '3'
+services:
+    nginx_karlegalskoalas:
+        container_name: nginx_karlegalskoalas
+        build: .
+        restart: always
+        volumes:
+            - ./:/usr/share/nginx/html
+        ports:
+            - "80:80"

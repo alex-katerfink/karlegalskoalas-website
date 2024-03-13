@@ -1,0 +1,18 @@
+@font-face { 
+    font-family: CrimsonPro-Medium;
+    font-display: auto;
+    font-style: normal;
+    font-weight: 300;
+    src:    local('CrimsonPro-Medium'),
+            local('CrimsonPro-Medium'),
+            url('./CrimsonPro-Medium.ttf') format('truetype');
+}
+@font-face { 
+    font-family: Oswald-Bold;
+    font-display: auto;
+    font-style: normal;
+    font-weight: 300;
+    src:    local('Oswald-Bold'),
+            local('Oswald-Bold'),
+            url('./Oswald-Bold.ttf') format('truetype');
+}
