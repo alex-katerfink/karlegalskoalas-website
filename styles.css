@@ -112,6 +112,20 @@ header .link img {
     }
 }
 
+@media (max-width: 500px) {
+    #index article {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #index article #description {
+        line-height: 1.5;
+        text-align: left;
+    }
+}
+
 /* IMPRINT / PRIVACY POLICY */
 
 #imprint article {
