@@ -1,5 +1,6 @@
 User-agent: *
-Allow: /
+Disallow: /epk.html
+Disallow: /epk
 
 Sitemap:
 https://www.karlegalskoalas.de/sitemap.xml
