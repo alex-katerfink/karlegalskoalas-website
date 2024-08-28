@@ -168,7 +168,7 @@ header .link img {
     font-weight: normal;
 }
 
-#epk article #release, #epk article #bio, #epk article #photos, #epk article #contact {
+#epk article #release, #epk article #bio, #epk article #photos, #epk article #contact, #epk article #live p {
     font-size: medium;
     font-family: 'Oswald-Bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: normal;
