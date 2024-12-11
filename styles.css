@@ -183,13 +183,24 @@ header .link img {
 }
 
 #epk article #release, #epk article #bio {
-    display: flex;
+    display: flex;  
     flex-direction: row;
     gap: 20px;
 }
 
 #epk article #release img, #epk article #bio img {
     width: 250px;
+}
+
+#epk #release-songs, #epk #shows {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+#epk #release-songs div {
+    width: 350px;
 }
 
 #epk #media {
